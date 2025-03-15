@@ -75,13 +75,6 @@ blox_fruits_rareza = {
     "Kitsune": "Legendaria",
     "Leopardo": "Legendaria"
 }
-
-pregunta = input("¿QUÉ DESEA HACER? BUSCAR EL PRECIO DE UNA FRUTA (1) O BUSCAR SU RAREZA (2): ")
-
-if pregunta == "1":
-    pregunta_fruta = input("¿DE QUÉ FRUTA QUIERE SABER EL PRECIO? :  ")
-    respuesta_fruta = frutas.get(pregunta_fruta, "FRUTA NO ENCONTRADA")
-    print(f"EL PRECIO DE LA FRUTA {pregunta_fruta}, ES DE : {respuesta_fruta}")
 elif pregunta == "2":
     pregunta_rareza = input("DE QUE FRUTA QUIERE SABER LA RAREZA? : ")
     respuesta_rareza = blox_fruits_rareza.get(pregunta_rareza, "FRUTA NO ENCONTRADA")
