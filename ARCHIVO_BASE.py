@@ -73,9 +73,4 @@ blox_fruits_rareza = {
     "Gas": "Mítica",
     "Yeti": "Mítica",
     "Kitsune": "Legendaria",
-    "Leopardo": "Legendaria"
-}
-elif pregunta == "2":
-    pregunta_rareza = input("DE QUE FRUTA QUIERE SABER LA RAREZA? : ")
-    respuesta_rareza = blox_fruits_rareza.get(pregunta_rareza, "FRUTA NO ENCONTRADA")
-    print(f"LA RAREZA DE LA FRUTA {pregunta_rareza}, ES DE : {respuesta_rareza}")
+    "Leopardo": "Legendar
