@@ -73,4 +73,4 @@ blox_fruits_rareza = {
     "Gas": "Mítica",
     "Yeti": "Mítica",
     "Kitsune": "Legendaria",
-    "Leopardo": "Legendar
+    "Leopardo": "Legendaria",
